@@ -63,6 +63,10 @@ class blogEntry{
 //show dialog when 'Add' button is clicked
 function add(){
   popup.showModal();
+  if(editOn == 1){
+    titleField.value = posts[editInd].title;
+    sumField.value = posts[editInd].summary;
+  }
 }
 
 //push blog entry onto array when 'Post' is clicked
