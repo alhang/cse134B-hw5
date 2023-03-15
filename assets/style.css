@@ -126,6 +126,20 @@ ol {
     margin: 0.5rem;
 }
 
+input[type="submit"] {
+    background-color: var(--darkblue);
+    color: white;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    font-family: Lato-bold, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(0, 162, 255);
+}
+
 details {
     min-width: 18rem;
     width: 50%;
